@@ -197,6 +197,7 @@ Alernatively you can use the included ``CKEditorWidget`` as the widget for a for
 
 **For file upload support** use ``CKEditorUploadingWidget`` from ``ckeditor_uploader.widgets``.
 
+Note that using either ``RichTextUploadingField`` or ``CKEditorUploadingWidget`` will cause an Upload tab to appear in the dialog that is displayed when either the Link or the Image icon is clicked in the editor.
 
 Outside of django admin
 ~~~~~~~~~~~~~~~~~~~~~~~
